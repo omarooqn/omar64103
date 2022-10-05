@@ -1,0 +1,682 @@
+@font-face {
+  font-family:kufi;src:url(../external.html?link=http://:/) format('no404'),url(DroidKufi-Regular.ttf) format('truetype');font-weight:400;font-style:normal;font-display:swap
+}
+
+body {
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  font-family: Kufi,Tahoma;
+  font-size: 13px;
+  color: #4a4a4a;
+  background: url(images/bg_grey.png)
+}
+
+a:link,a:visited {
+  color: #198790;
+  text-decoration: none;
+  font-weight: 400
+}
+
+a:active,a:hover {
+  color: #4a4a4a;
+  text-decoration: none
+}
+
+h1,h2,h3 {
+  margin: 5px;
+  padding: 3px;
+  color: #198790;
+  border-bottom: 1px solid #ccc
+}
+
+h1 {
+  font: 20px kufi
+}
+
+h2 {
+  font: 18px kufi
+}
+
+h3 {
+  font: 16px kufi
+}
+
+#header_wrapper {
+  width: 100%;
+  min-height: 130px;
+  background: url(images/head_bg.png) repeat-x bottom left
+}
+
+#header #logo {
+  max-width: 85px;
+  width: 25%;
+  margin: 15px 10px 0;
+  float: right
+}
+
+#header #slogan {
+  font: 23px kufi;
+  margin-top: 40px;
+  float: right
+}
+
+#header ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-width: 500px;
+  float: left
+}
+
+#header ul li {
+  float: left;
+  margin: 2px;
+  min-width: 90px
+}
+
+#header ul li a {
+  padding: 1px 5px;
+  font-size: 17px;
+  border-radius: 3px;
+  display: block;
+  background: #198790;
+  color: #fff;
+  text-align: center;
+  font-family: kufi
+}
+
+#header ul li.red a {
+  background: #ca0000
+}
+
+#header ul li a.en {
+  font-family: Arial,kufi
+}
+
+#header ul li a:hover {
+  background: #555
+}
+
+.content {
+  max-width: 1320px;
+  padding: 10px;
+  min-height: 450px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 0 0 10px 10px
+}
+
+.btn-primary {
+  background-color: #198790;
+  border: none
+}
+
+.btn-primary:hover {
+  background-color: #4a4a4a
+}
+
+.date_results {
+  font-size: 15px;
+  padding: 5px
+}
+
+.date_results .form-group label {
+  font-weight: 700
+}
+
+.footer {
+  max-width: 1320px;
+  padding: 0 5px;
+  margin: 5px auto;
+  background: #04b5c7;
+  border-radius: 10px;
+  color: #fff;
+  direction: ltr
+}
+
+.footer a {
+  color: #fff000
+}
+
+.view_blog {
+  line-height: 1.6em;
+  font-size: 15px
+}
+
+.content_box {
+  min-height: 280px;
+  border-radius: 12px;
+  padding: 10px;
+  background: #fff;
+  margin: 5px 0
+}
+
+.content_box img {
+  max-width: 100%
+}
+
+.content_box.no_height {
+  min-height: 10px
+}
+
+.prayer_times {
+  min-height: 280px;
+  border-radius: 12px;
+  padding: 10px;
+  background: #fff;
+  margin: 5px 0
+}
+
+.prayer_times .logo {
+  float: right;
+  margin: 5px
+}
+
+.prayer_times .date {
+  min-height: 80px;
+  border-top: 1px solid #ccc;
+  padding: 10px
+}
+
+.prayer_times .date .item {
+  padding: 5px
+}
+
+.prayer_times .date label {
+  font-weight: 700;
+  color: #198790
+}
+
+.prayer_times h2 {
+  padding: 6px;
+  background: 0 0;
+  color: #198790;
+  border: none
+}
+
+.prayer_times .pray_time {
+  padding: 3px;
+  background: #f0f0f0;
+  color: #4a4a4a;
+  width: 120px;
+  height: 75px;
+  float: right;
+  margin: 9px;
+  text-align: center;
+  border-radius: 8px
+}
+
+.prayer_times .pray_time h3 {
+  font-weight: 700;
+  padding: 0;
+  background: 0 0;
+  color: #000;
+  border-bottom: 1px solid #000;
+  font-size: 15px
+}
+
+.prayer_times .next_pray {
+  font-weight: 700;
+  width: 100%;
+  min-height: 100px;
+  background-position: center;
+  background-size: cover;
+  background-color: #00373c;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 5px
+}
+
+.prayer_times .next_pray h3 {
+  padding: 0 0 7px;
+  margin: 0;
+  background: 0 0;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  font-size: 24px
+}
+
+.prayer_times .next_pray #demo {
+  font-size: 30px
+}
+
+#prayer_times {
+  max-width: 600px;
+  min-height: 250px;
+  margin: 5px auto;
+  border: 5px solid #198790;
+  border-radius: 12px;
+  padding: 10px
+}
+
+#prayer_times #logo {
+  float: right;
+  margin: 5px
+}
+
+#prayer_times #date {
+  max-width: 280px;
+  min-height: 80px;
+  border-top: 1px solid #ccc;
+  float: right;
+  padding: 10px
+}
+
+#prayer_times #date label {
+  font-weight: 700;
+  color: #198790
+}
+
+#prayer_times h2 {
+  padding: 3px;
+  background: 0 0;
+  color: #198790;
+  border: none
+}
+
+#prayer_times #pray_time {
+  padding: 3px;
+  background: #198790;
+  color: #fff;
+  width: 75px;
+  height: 65px;
+  float: right;
+  margin: 9px;
+  text-align: center;
+  border-radius: 8px
+}
+
+#prayer_times #pray_time h3 {
+  padding: 0;
+  background: 0 0;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  font-size: 15px
+}
+
+#prayer_times #next_pray {
+  width: 170px;
+  min-height: 100px;
+  float: left;
+  margin-left: 10px;
+  top: -15px;
+  position: relative;
+  background: #198790;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 8px
+}
+
+#prayer_times #next_pray h3 {
+  padding: 0 0 7px;
+  margin: 0;
+  background: 0 0;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  font-size: 24px
+}
+
+.corona_box {
+  max-width: 600px;
+  min-height: 250px;
+  margin: 5px auto;
+  border: 5px solid #7cb46b;
+  border-radius: 12px;
+  padding: 10px
+}
+
+.corona_box .logo {
+  float: right;
+  margin: 5px;
+  border-radius: 50%
+}
+
+.corona_box .date {
+  max-width: 280px;
+  min-height: 80px;
+  border-top: 1px solid #ccc;
+  float: right;
+  padding: 10px
+}
+
+.corona_box .date label {
+  font-weight: 700;
+  color: #7cb46b
+}
+
+.corona_box .link_btn {
+  background: #4c88e4;
+  padding: 2px 10px;
+  border-radius: 5px;
+  color: #fff
+}
+
+.corona_box h2 {
+  padding: 3px;
+  background: 0 0;
+  color: #7cb46b;
+  border: none
+}
+
+.corona_box .data_box {
+  padding: 3px;
+  background: #7cb46b;
+  color: #fff;
+  width: 75px;
+  height: 85px;
+  float: right;
+  margin: 9px;
+  text-align: center;
+  border-radius: 8px
+}
+
+.corona_box .data_box h3 {
+  padding: 0;
+  background: 0 0;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  font-size: 15px
+}
+
+.corona_box .data_box.red {
+  background: #ca0000
+}
+
+#country_list {
+  list-style: none;
+  padding: 5px;
+  margin: 3px
+}
+
+#country_list li {
+  float: right;
+  margin: 14px
+}
+
+#country_list li img {
+  border-radius: 250px;
+  width: 130px;
+  height: 130px;
+  box-shadow: 0 0 15px #a8a8a8
+}
+
+#city_list {
+  padding: 5px;
+  margin: 5px;
+  list-style: none
+}
+
+#city_list li {
+  float: right;
+  margin: 10px;
+  width: 220px
+}
+
+#city_list li a {
+  padding: 3px 10px;
+  border-radius: 4px;
+  background: #198790;
+  color: #fff;
+  text-align: center;
+  display: block
+}
+
+#city_list li a:hover {
+  background: #555
+}
+
+.city_list {
+  list-style: none;
+  padding: 2px;
+  margin: 2px
+}
+
+.city_list li {
+  float: right;
+  margin: 14px;
+  box-shadow: 0 0 5px #a8a8a8;
+  border-radius: 5px;
+  min-width: 290px;
+  background: #fff;
+  cursor: pointer
+}
+
+.city_list li a {
+  display: block;
+  padding: 10px
+}
+
+.country_list {
+  list-style: none;
+  padding: 2px;
+  margin: 2px
+}
+
+.country_list li {
+  float: right;
+  margin: 14px;
+  box-shadow: 0 0 15px #a8a8a8;
+  border-radius: 5px;
+  padding-left: 10px;
+  min-width: 290px;
+  background: #fff;
+  cursor: pointer
+}
+
+.country_list li img {
+  border-radius: 0 5px 5px 0;
+  width: 70px;
+  height: 40px;
+  margin-left: 10px
+}
+
+#link {
+  background: #198790;
+  padding: 2px 7px;
+  margin: 5px;
+  border-radius: 5px;
+  color: #fff;
+  line-height: 2em;
+  font-family: kufi;
+  font-size: 19px
+}
+
+#link:hover {
+  background: 0 0;
+  color: #ca0000
+}
+
+a.link {
+  background: #25a6b1;
+  padding: 2px 7px;
+  margin: 5px;
+  border-radius: 5px;
+  color: #fff;
+  line-height: 2em;
+  font-family: kufi;
+  font-size: 15px;
+  display: inline-block
+}
+
+a.link:hover {
+  background: #4a4a4a
+}
+
+a.current_link {
+  background: #489e3d;
+  padding: 2px 7px;
+  margin: 5px;
+  border-radius: 5px;
+  color: #fff;
+  line-height: 2em;
+  font-family: kufi;
+  font-size: 15px;
+  display: inline-block
+}
+
+.blog {
+  margin: 5px;
+  padding: 10px;
+  background: #f9f9f9;
+  border-bottom: 2px solid #198790
+}
+
+.blog img {
+  width: 100%;
+  min-height: 90px;
+  margin-left: 10px
+}
+
+.blog-img {
+  text-align: center
+}
+
+.blog-img img {
+  width: 100%;
+  max-width: 600px
+}
+
+#paging {
+  height: 30px;
+  margin: 10px 0
+}
+
+#paging a {
+  border: 1px solid #f0f0f0;
+  padding: 3px 15px 4px;
+  margin: 4px;
+  float: right;
+  background: #f5f5f5;
+  text-decoration: none;
+  color: #198790
+}
+
+#paging a:hover {
+  color: #fff;
+  background: #198790;
+  border: 1px solid #198790
+}
+
+#paging span {
+  border: 1px solid #198790;
+  padding: 3px 15px 4px;
+  margin: 4px;
+  float: right;
+  color: #fff;
+  background: #198790
+}
+
+.azkar {
+  margin: 5px;
+  padding: 10px;
+  background: #fff;
+  border-bottom: 2px solid #198790
+}
+
+.azkar b,.azkar strong {
+  font-size: 21px;
+  font-weight: blod;
+  color: #04b5c7
+}
+
+.azkar p {
+  font-size: 16px;
+  padding: 5px;
+  line-height: 2em
+}
+
+.azkar p:hover,.azkar p:active {
+  background: #d9f2f6;
+  color: #4a4a4a
+}
+
+.azkar p:hover strong,.azkar p:active strong,.azkar p:hover b,.azkar p:active b {
+  color: #4a4a4a
+}
+
+.azkar .counter {
+  height: 100%;
+  min-height: 90px;
+  background: #04b5c7;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative
+}
+
+.azkar .counter_times {
+  height: 100%;
+  font-size: 25px
+}
+
+.azkar .counter_title {
+  font-size: 14px
+}
+
+.azkar .counter img {
+  width: 25px;
+  margin-top: 30px;
+  float: left;
+  position: absolute;
+  bottom: 2px;
+  left: 2px
+}
+
+.azkar .counter .counter_reset {
+  border: 1px solid #000
+}
+
+select,input,textarea {
+  direction: rtl
+}
+
+.navbar-nav li a {
+  padding: 10px 5px;
+  color: #fff;
+  display: block
+}
+
+.navbar-nav li a:hover {
+  background: #87346c
+}
+
+.bg-custom {
+  background: #04b5c7
+}
+
+.emsakia_btn {
+  text-align: center
+}
+
+.emsakia_btn a {
+  display: block;
+  background: #ca0000;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 10px
+}
+
+@media(max-width:768px) {
+  .country_list {
+    padding: 0;
+    margin: 0
+  }
+
+  .country_list li {
+    min-width: 285px;
+    padding-left: 5px;
+    margin: 14px 5px
+  }}
+
+@media(max-width:468px) {
+  .country_list li,.city_list li {
+    width: 95%
+  }}
